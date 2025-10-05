@@ -1,0 +1,39 @@
+# --------------------
+.env              # 專案環境變數 (含 Token, API Keys)
+
+# --------------------
+# Python 相關 (PYTHON SPECIFIC)
+# --------------------
+# 虛擬環境目錄
+.venv
+venv/
+env/
+
+# 編譯產物
+__pycache__/
+*.pyc
+
+# 測試與建置產物
+.pytest_cache/
+build/
+dist/
+
+# --------------------
+# Java 相關 (JAVA SPECIFIC - 處理器)
+# --------------------
+# Maven (最常見的 Java 建構工具)
+target/
+
+# Gradle (另一個常見的 Java 建構工具)
+.gradle/
+build/
+
+# IDE 相關檔案 (避免 IDE 設定檔污染 Repo)
+*.iml
+.idea/
+.vscode/
+
+# --------------------
+# 系統檔案
+# --------------------
+.DS_Store
