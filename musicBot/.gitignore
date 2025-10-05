@@ -1,6 +1,6 @@
 # --------------------
 .env              # 專案環境變數 (含 Token, API Keys)
-
+musicBot/ffmpeg.exe
 # --------------------
 # Python 相關 (PYTHON SPECIFIC)
 # --------------------
